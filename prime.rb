@@ -12,7 +12,7 @@ def prime?(num)
           array_divisible << el if  num % el == 0
         end
      p num
-     p array_divisible
+    array_divisible.length > 2 ? is_prime = false : is_prime = true
     end 
     
   end
