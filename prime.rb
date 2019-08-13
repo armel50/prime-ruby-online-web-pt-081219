@@ -7,13 +7,13 @@ def prime?(num)
     false
   else
     if num.is_a? Integer 
-      num = 2
+     
        array.each do |el| 
           array_divisible << el if  num % el == 0
         end
-     p num
+   
     array_divisible.length > 2 ? is_prime = false : is_prime = true
-    p is_prime
+
     end 
     
   end
