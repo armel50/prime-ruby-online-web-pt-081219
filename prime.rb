@@ -3,7 +3,7 @@ def prime?(num)
  array = (1..(num - 1)).to_a
  array_divisible = []
 
-  if num < 0 
+  if num =< 0 
     false
   else
     if (num.is_a? Integer) &&( num != 1 || num != 0)
