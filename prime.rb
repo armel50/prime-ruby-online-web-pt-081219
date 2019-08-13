@@ -2,7 +2,7 @@ def prime?(num)
       is_prime = false
 
   if num < 0 || num == 1
-    false
+    is_prime = false
   elsif num > 0 
     
     array = (1..num ).to_a 
