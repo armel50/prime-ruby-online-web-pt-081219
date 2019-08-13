@@ -1,11 +1,11 @@
 def prime?(num)
-
+      is_prime = false
 
   if num < 0 
     false
   else
     array = (1..(num - 1)).to_a
-      is_prime = false
+
       array_divisible = []
       
     if (num.is_a? Integer) &&( num != 1 || num != 0)
