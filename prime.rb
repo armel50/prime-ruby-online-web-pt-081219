@@ -6,7 +6,7 @@ def prime?(num)
   if num < 0 
     false
   else
-    if (num.is_a? Integer) && num != 1
+    if (num.is_a? Integer) &&() num != 1 || num != 0
      
        array.each do |el| 
           array_divisible << el if  num % el == 0
