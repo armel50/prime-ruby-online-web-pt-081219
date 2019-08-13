@@ -9,7 +9,7 @@ def prime?(num)
 
       array_divisible = []
       
-    if (num.is_a? Integer) &&( num != 1 || num != 0)
+    if (num.is_a? Integer) 
      
        array.each do |el| 
           array_divisible << el if  num % el == 0
