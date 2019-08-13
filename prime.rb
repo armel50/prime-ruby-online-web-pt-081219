@@ -8,9 +8,9 @@ def prime?(num)
   else
     if num.is_a? Integer 
       num = 10
-     array_divisible =  array.collect do |el| 
-                                          num % el
-                                      end
+       array.each do |el| 
+          array_divisible << el if  num % el == 0
+        end
      p num
      p array_divisible
     end 
