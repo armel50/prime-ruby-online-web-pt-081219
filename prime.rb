@@ -1,6 +1,6 @@
 def prime?(num)
   is_prime = false
- array = (1..10).to_a
+ array = (1..(num - 1)).to_a
  array_divisible = []
 
   if num < 0 
