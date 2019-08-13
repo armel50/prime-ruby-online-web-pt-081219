@@ -7,6 +7,7 @@ def prime?(num)
     array = (1..(num - 1)).to_a
       is_prime = false
       array_divisible = []
+      
     if (num.is_a? Integer) &&( num != 1 || num != 0)
      
        array.each do |el| 
