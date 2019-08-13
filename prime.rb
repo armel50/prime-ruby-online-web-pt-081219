@@ -5,7 +5,7 @@ def prime?(num)
     false
   elsif num > 0 
     
-    array = (1..(num - 1)).to_a 
+    array = (1..num ).to_a 
 
       array_divisible = []
       
