@@ -3,7 +3,8 @@ def prime?(num)
 
   if num < 0 
     false
-  else
+  else 
+    is_prime = false
     array = (1..(num - 1)).to_a
 
       array_divisible = []
