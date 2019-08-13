@@ -13,6 +13,7 @@ def prime?(num)
         end
      p num
     array_divisible.length > 2 ? is_prime = false : is_prime = true
+    p is_prime
     end 
     
   end
