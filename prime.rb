@@ -14,7 +14,7 @@ def prime?(num)
        
     array_divisible.length > 2 ? is_prime = false : is_prime = true
 
-   # end 
+   
     
   end
   is_prime
