@@ -7,7 +7,7 @@ def prime?(num)
     false
   else
     if num.is_a? Integer 
-      num = 10
+      num = 2
        array.each do |el| 
           array_divisible << el if  num % el == 0
         end
