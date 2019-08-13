@@ -3,9 +3,9 @@ def prime?(num)
 
   if num < 0 
     false
-  else 
+  elsif num > 0 
     
-    array = (1..(num - 1)).to_a
+    array = (1..(num - 1)).to_a 
 
       array_divisible = []
       
